@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+.container {
+    width: min(1100px , 92%);
+    margin: 40px auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header p {
+    color: #6b7280;
+
+}
+
+.search-section {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.search-section input {
+    flex: 1;
+    min-width: 200px;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563ed;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+
+}
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#loadBtn {
+    background-color: #059669;
+
+}
+
+#loadBtn:hover {
+    background-color: #047856;
+
+}
+
+.status-section {
+    min-height: 35px;
+    margin-bottom: 20px;
+}
+
+
+#statusMessage {
+    color: #4b5563;
+    
+}
+.userContainer {
+       display: flex;
+       gap: 20px;
+       flex-wrap: wrap;
+}
+
+.user-card {
+    background-color: white;
+    flex: 0 0 150px;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.user-card:hover {
+    transform: translateY(-4px);
+}
+
+.user-card h2 {
+    font-size: 20px;
+    margin-top: 0;
+    color: #1d4ed8
+}
+
+.user-card p {
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+
+}
+
+.user-card a:hover {
+    text-decoration: underline;
+}
+
+
+
